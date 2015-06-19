@@ -2,7 +2,7 @@
 
 $body-bg:    					#bdc3c7;
 $font-family-sans-serif:  		'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-$navbar-default-bg:   			#ecf0f1;
+$navbar-default-bg:   			white;
 $navbar-default-link-color:  	black;
 $navbar-default-brand-color: 	#c0392b;
 $brand-primary: 				#c0392b;
@@ -16,4 +16,26 @@ $jumbotron-bg: 					#ecf0f1;
 
 .navbar-brand {
 	font-weight: bold;
+}
+
+.media-heading-right {
+	text-align: right;
+}
+
+.media-body-right {
+	text-align: right; 
+	float: right;
+	max-width: 350px;
+	margin:0 auto;
+}
+
+.limit {
+	max-width: 350px;
+}
+
+.row.nogutter {
+	padding-left: -30px;
+	padding-right: -24px;
+	margin-left: -30px;
+	margin-right: -24px;
 }
